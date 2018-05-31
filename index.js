@@ -17,3 +17,5 @@ window.crypto.getRandomValues = (buf) => {
   const bytes = nodeCrypto.randomBytes(buf.length);
   buf.set(bytes);
 };
+
+export default require('openpgp');
