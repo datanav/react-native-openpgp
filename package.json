@@ -1,0 +1,22 @@
+{
+  "name": "react-native-openpgp",
+  "version": "1.0.0",
+  "description": " Shim to make openpgp.js run on react native ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datanav/react-native-openpgp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datanav/react-native-openpgp/issues"
+  },
+  "homepage": "https://github.com/datanav/react-native-openpgp#readme",
+  "dependencies": {
+    "openpgp": "^3.0.11"
+  }
+}
