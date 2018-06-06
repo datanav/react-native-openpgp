@@ -10,12 +10,4 @@ console.assert = (assertion) => {
   }
 };
 
-// We need to fake the window.crypto, because the way openpgp.js detects node is by checking if window is undefined
-const nodeCrypto =  require('crypto');
-window.crypto = {};
-window.crypto.getRandomValues = (buf) => {
-  const bytes = nodeCrypto.randomBytes(buf.length);
-  buf.set(bytes);
-};
-
 export default require('openpgp');
