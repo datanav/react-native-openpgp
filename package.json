@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/datanav/react-native-openpgp#readme",
   "dependencies": {
-    "openpgp": "^4.5.5"
+    "openpgp": "^3.0.11"
   }
 }
